@@ -1,0 +1,115 @@
+.filter_sort {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    margin-top: 80px;
+}
+
+.filter_sort span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.filter_sort select {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 17vw;
+    height: 3.5vh;
+    margin-right: 1.5rem;
+    border-radius: 40px;
+    background-color: transparent;
+   
+}
+
+.filter_sort select option {
+    margin-right: 5px;
+}
+
+.filter_select {
+    width: 10vw !important;
+}
+
+.recipes_home {
+    /* background: linear-gradient(45deg, #DDDDDD 0%, #EFEFEF 50%, #FFFFFF 100%); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    height: 10vh;
+}
+
+.num_page {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.btn_page {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: rgb(71, 171, 254);
+    border-radius: 50px;
+    color: white;
+    font-size: 1em;
+    width: 10vw;
+    height: 3.5vh;
+    margin: 0 2rem;
+    cursor: pointer;
+    transition: transform 250ms ease;
+}
+
+.btn_page:hover {
+    background-color: #060153;
+    color: rgb(185,185,185);
+    transform: scale(1.02);
+}
+
+.not_found {
+    align-items: center;
+    left: 80px;
+    display: block;
+    margin:auto;
+    width: 800px;
+    height: 600px;
+}
+
+.btn_not_found {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: darkgrey;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+    width: 10vw;
+    height: 5vh;
+    margin: 0 2rem;
+    align-items: center;
+    left: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    cursor: pointer;
+    transition: transform 250ms ease;
+}
+
+.btn_not_found:hover {
+    background-color: rgb(71, 171, 254);
+    color: white;
+    transform: scale(1.02);
+}
+
+.loading {
+    align-items: center;
+    width: 700px;
+        height: 700px;
+}
+

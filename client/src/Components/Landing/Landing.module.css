@@ -1,0 +1,49 @@
+.background_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img_container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    justify-content: center;
+    
+}
+
+.logo_container {
+    max-width: 350px;
+    max-height: 175px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    top: 30%;
+   
+}
+
+.btn {
+    position: absolute;
+    top: 55%;
+    
+    padding: 15px 60px;
+    border-radius: 8px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 100%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: transform 250ms ease;
+    
+}
+
+.btn:hover {
+    background-color: rgb(22, 22, 22);
+    color: rgb(185, 185, 185);
+    transform: scale(1.1, 1.1);
+}
