@@ -6,6 +6,8 @@ import Home from './Components/Home/Home';
 import Landing from './Components/Landing/Landing';
 import NavBar from './Components/NavBar/NavBar';
 
+
+
 function App() {
   return (
     <div >

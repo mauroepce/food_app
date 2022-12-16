@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as types from "./actionTypes.js";
 
-let url = "http://localhost:3001";
+let url = "https://food-app-back.onrender.com";
 
 export function getRecipes() {
     return async (dispatch) => {
