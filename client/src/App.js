@@ -5,7 +5,7 @@ import Form from './Components/Form/Form';
 import Home from './Components/Home/Home';
 import Landing from './Components/Landing/Landing';
 import NavBar from './Components/NavBar/NavBar';
-
+import axios from "axios";
 
 
 function App() {
